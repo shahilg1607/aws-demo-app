@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-technpdemoapp-dev-171425-authRole",
+      "UnauthRoleArn": "arn:aws:iam::731427611754:role/amplify-technpdemoapp-dev-171425-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::731427611754:role/amplify-technpdemoapp-dev-171425-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-technpdemoapp-dev-171425-deployment",
+      "UnauthRoleName": "amplify-technpdemoapp-dev-171425-unauthRole",
+      "StackName": "amplify-technpdemoapp-dev-171425",
+      "StackId": "arn:aws:cloudformation:ap-south-1:731427611754:stack/amplify-technpdemoapp-dev-171425/7750fe10-173b-11ee-b0b5-0ad9338ef582",
+      "AmplifyAppId": "d33n1nascc75wg"
+    }
+  },
+  "auth": {
+    "technpdemoappf17f2f26": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-technpdemoapp-dev-171425-deployment/amplify-cfn-templates/auth/technpdemoappf17f2f26-cloudformation-template.json",
+        "logicalId": "authtechnpdemoappf17f2f26"
+      },
+      "lastPushTimeStamp": "2023-06-30T11:52:41.138Z",
+      "output": {
+        "UserPoolId": "ap-south-1_6VV4OiHfj",
+        "AppClientIDWeb": "r67btl5tiooeu5beja79bbtqf",
+        "AppClientID": "385vkdqjkttn14mr2mddl56lgq",
+        "IdentityPoolId": "ap-south-1:2fd2d92f-6364-4467-85c2-15d6e37d1b91",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:731427611754:userpool/ap-south-1_6VV4OiHfj",
+        "IdentityPoolName": "technpdemoappf17f2f26_identitypool_f17f2f26__dev",
+        "UserPoolName": "technpdemoappf17f2f26_userpool_f17f2f26"
+      },
+      "lastPushDirHash": "29y6yVmxH0b9wdpzYKp8rZhRXP0="
+    }
+  }
+}
